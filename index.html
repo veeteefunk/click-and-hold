@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Click and Hold Effects</title>
+  </head>
+  <body>
+    <section>
+      <h2>Click and Hold Effects</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        voluptatum rerum iusto, quisquam inventore recusandae eum nisi mollitia
+        atque molestiae sit similique natus quam voluptas quia sapiente magni
+        consectetur facere esse nostrum voluptates, consequatur, vitae explicabo
+        sunt! At nesciunt impedit ipsa est laborum alias rem hic, expedita vitae
+        omnis ipsam dolor tempore repudiandae? Dolores neque pariatur recusandae
+        fuga deserunt magnam libero sed! Nemo dolor sed suscipit rem vel
+        delectus doloribus beatae cum quidem ad harum praesentium aperiam
+        labore, quos, voluptates fugiat dolorum tenetur recusandae unde quod
+        debitis quibusdam! Cumque totam dicta recusandae saepe reprehenderit
+        aspernatur, natus qui repudiandae quidem hic debitis aut ex beatae
+        dignissimos repellendus veritatis doloremque tempora consequuntur sunt
+        fugit culpa dolorem sapiente. Asperiores cum veniam vitae quam.
+      </p>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore
+        quo reiciendis voluptates porro labore quis ratione ullam debitis.
+        Laudantium explicabo maxime quasi dolor debitis maiores rem nostrum
+        recusandae, molestias possimus eveniet tempore magnam a perspiciatis,
+        provident eius, velit aspernatur commodi necessitatibus rerum. Sed,
+        quae, laudantium eligendi non architecto nostrum a, doloremque odio
+        voluptates tenetur accusantium eveniet. Non accusantium perferendis cum
+        nesciunt odio adipisci at laboriosam dolorum mollitia veniam! Deleniti
+        laboriosam odit, similique voluptates maxime asperiores distinctio!
+        Dolor vitae magnam, earum temporibus eligendi recusandae voluptas quasi
+        voluptatem officia, aperiam soluta eius ex qui laborum et quibusdam
+        delectus praesentium dolorem doloremque natus obcaecati est! Obcaecati
+        exercitationem atque illum dignissimos ipsum illo eius error modi. Nemo
+        quibusdam dicta repellendus aut ullam sit!
+      </p>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi earum ea,
+        sunt facere quis eveniet pariatur dignissimos tenetur! Reprehenderit
+        praesentium porro, qui, placeat error ipsum mollitia nam unde hic
+        dolorum explicabo nostrum beatae magnam, maxime modi nemo illo?
+        Perspiciatis ipsa necessitatibus saepe sint doloribus, est sapiente.
+        Reprehenderit ut necessitatibus nulla cumque ullam, maxime voluptate
+        esse sequi minima delectus, enim exercitationem atque voluptas sint
+        porro corrupti consequatur libero blanditiis aperiam at nesciunt natus
+        facere nobis. Exercitationem distinctio nulla molestiae tenetur ipsam.
+      </p>
+    </section>
+    <div id="cursor"></div>
+
+    <script>
+      var cursor = document.getElementById("cursor");
+      window.onmousemove = function(e) {
+        var x = e.clientX,
+          y = e.clientY;
+        cursor.style.left = x + "px";
+        cursor.style.top = y + "px";
+      };
+    </script>
+  </body>
+</html>
